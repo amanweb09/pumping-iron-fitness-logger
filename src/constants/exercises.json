@@ -1,0 +1,46 @@
+[
+    {
+        "title": "barbell bench press",
+        "logs": [
+            {
+                "lastWorkout": "31-5-2024",
+                "logs": [
+                    {
+                        "date": "31-5-2024",
+                        "setsAndReps": [
+                            [25,6], [25,4], [20,8]
+                        ]
+                    },
+                    {
+                        "date": "26-5-2024",
+                        "setsAndReps": [
+                            [25,4], [25,3], [20,1]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "incline dumbbell press",
+        "logs": [
+            {
+                "lastWorkout": "31-5-2024",
+                "logs": [
+                    {
+                        "date": "31-5-2024",
+                        "setsAndReps": [
+                            [25,6], [25,4], [20,8]
+                        ]
+                    },
+                    {
+                        "date": "26-5-2024",
+                        "setsAndReps": [
+                            [25,4], [25,3], [20,1]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

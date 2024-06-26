@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input,
+textarea {
+  outline: none;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: none;
+  appearance: none;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.transition-2 {
+  transition: 0.2s;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blink {
+  animation: blink alternate 1.25s linear infinite;
+}
+
+.spin {
+  animation: spin infinite 0.5s linear;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+/* toastify */
+.Toastify__toast-body {}
+
+.Toastify__toast--error,
+.Toastify__toast--success {
+  border-radius: 15px !important;
+  background: rgb(23, 23, 23) !important;
+  color: rgb(243, 244, 246) !important;
+}
+
+.Toastify__toast--success{
+  border: rgb(190, 242, 100);
+}
+
+.Toastify__toast--error{
+  border: red;
+}
